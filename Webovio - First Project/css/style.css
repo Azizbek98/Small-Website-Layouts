@@ -42,6 +42,15 @@ img {
   margin: 0 auto;
 }
 
+.link {
+  border-bottom: 1px solid currentColor;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #d4d6d4;
+}
+
 .header {
   position: absolute;
   top: 0;
