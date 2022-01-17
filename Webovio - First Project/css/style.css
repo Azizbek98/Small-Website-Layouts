@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
+:root {
+  --font-family: "Poppins", sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -10,7 +14,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-family);
   font-weight: 400;
 }
 
@@ -27,6 +31,7 @@ img {
 .btn-reset {
   padding: 0;
   border: none;
+  font-family: var(--font-family);
   background-color: transparent;
   cursor: pointer;
 }
@@ -41,6 +46,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+  padding: 24px 0;
   width: 100%;
 }
 
@@ -75,7 +81,7 @@ img {
 }
 
 .burger .burger-line:nth-child(3) {
-  top: 26px; /* top: 20px from child(2) and adding + 6px *
+  top: 26px; /* top: 20px from child(2) and adding + 6px */
 }
 
 .hero {
