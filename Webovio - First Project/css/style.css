@@ -85,9 +85,30 @@ img {
 }
 
 .hero {
-  padding-top: 100px;
+  padding-top: 189px;
   background-image: url("../images/hero-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.hero-content {
+  max-width: 616px;
+  color: #fff;
+}
+
+.hero .hero-subtitle {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.hero .hero-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+}
+
+.hero .hero-description {
+  font-size: 16px;
+  line-height: 26px;
 }
