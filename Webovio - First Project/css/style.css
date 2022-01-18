@@ -44,12 +44,12 @@ img {
 
 .link {
   display: inline-flex;
-  align-items: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1;
   text-decoration: none;
   color: #d4d6d4;
+  transition: color 0.3s ease-in-out;
 }
 
 .link span {
@@ -57,10 +57,15 @@ img {
   border-bottom: 1px solid currentColor;
 }
 
-.link img {
+.link svg {
   fill: currentColor;
-  width: 12px;
+  width: 10px;
   height: 14px;
+  transform: translateY(1px);
+}
+
+.link:hover {
+  color: #ffd723;
 }
 
 .header {
