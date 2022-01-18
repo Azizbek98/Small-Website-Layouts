@@ -43,12 +43,24 @@ img {
 }
 
 .link {
-  border-bottom: 1px solid currentColor;
+  display: inline-flex;
+  align-items: center;
   font-weight: 700;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 1;
   text-decoration: none;
   color: #d4d6d4;
+}
+
+.link span {
+  text-indent: 6px;
+  border-bottom: 1px solid currentColor;
+}
+
+.link img {
+  fill: currentColor;
+  width: 12px;
+  height: 14px;
 }
 
 .header {
