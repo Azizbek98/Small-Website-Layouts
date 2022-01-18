@@ -115,6 +115,7 @@ img {
 
 .hero {
   padding-top: 189px;
+  padding-bottom: 210px;
   background-image: url("../images/hero-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -127,17 +128,23 @@ img {
 }
 
 .hero .hero-subtitle {
+  display: inline-block;
+  margin-bottom: 22px;
   font-size: 14px;
   line-height: 21px;
 }
 
 .hero .hero-title {
+  margin: 0;
+  margin-bottom: 24px;
   font-weight: 700;
   font-size: 60px;
   line-height: 74px;
 }
 
 .hero .hero-description {
+  margin: 0;
+  margin-bottom: 45px;
   font-size: 16px;
   line-height: 26px;
 }
