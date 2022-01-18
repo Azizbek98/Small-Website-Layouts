@@ -58,10 +58,13 @@ img {
 }
 
 .link svg {
-  fill: currentColor;
   width: 10px;
   height: 14px;
   transform: translateY(1px);
+}
+
+.link svg path {
+  fill: currentColor;
 }
 
 .link:hover {
@@ -137,4 +140,8 @@ img {
 .hero .hero-description {
   font-size: 16px;
   line-height: 26px;
+}
+
+.hero-link {
+  color: #ffd723;
 }
