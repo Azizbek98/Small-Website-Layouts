@@ -71,6 +71,13 @@ img {
   color: #ffd723;
 }
 
+.site-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #4d533c;
+}
+
 .header {
   position: absolute;
   top: 0;
@@ -151,4 +158,18 @@ img {
 
 .hero-link {
   color: #ffd723;
+}
+
+.services {
+  padding-top: 150px;
+}
+
+.services-title {
+  max-width: 617px;
+}
+
+.services-list {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
 }
