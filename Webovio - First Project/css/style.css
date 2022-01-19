@@ -214,6 +214,20 @@ img {
   background-color: #fafafa;
 }
 
+.get-started-title {
+  margin: 0;
+  margin-bottom: 50px;
+  max-width: 822px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+  color: #4d533c;
+}
+
+.get-started-link {
+  text-transform: uppercase;
+}
+
 .footer {
   background-image: url("../images/footer-image.jpg");
   background-position: center;
