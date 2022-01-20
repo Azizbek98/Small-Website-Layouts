@@ -209,6 +209,8 @@ img {
 }
 
 .get-started {
+  position: relative;
+  top: 180px;
   padding: 70px 0;
   width: 88%;
   background-color: #fafafa;
