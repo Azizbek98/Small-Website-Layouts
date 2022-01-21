@@ -78,6 +78,7 @@ img {
   color: #4d533c;
 }
 
+/* ---- Header Section Styles ---- */
 .header {
   position: absolute;
   top: 0;
@@ -120,6 +121,7 @@ img {
   top: 26px; /* top: 20px from child(2) and adding + 6px */
 }
 
+/* ---- Hero Section Styles ---- */
 .hero {
   padding-top: 189px;
   padding-bottom: 210px;
@@ -160,6 +162,7 @@ img {
   color: #ffd723;
 }
 
+/* ---- Services Section Styles ---- */
 .services {
   padding-top: 150px;
 }
@@ -208,6 +211,7 @@ img {
   margin-top: auto;
 }
 
+/* ---- Get Started Section Styles ---- */
 .get-started {
   position: relative;
   top: 180px;
