@@ -217,6 +217,7 @@ img {
   top: 180px;
   padding: 70px 0;
   width: 88%;
+  box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
   background-color: #fafafa;
 }
 
@@ -235,8 +236,26 @@ img {
 }
 
 .footer {
+  padding-top: 300px;
+  color: #fff;
   background-image: url("../images/footer-image.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.footer-contacts-text {
+  display: block;
+  font-size: 16px;
+  line-height: 40px;
+  color: #b6c197;
+}
+
+.footer-contacts-value {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 40px;
+  color: #fff;
+  text-decoration: none;
 }
