@@ -244,14 +244,25 @@ img {
   background-repeat: no-repeat;
 }
 
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-contacts-item:not(:last-child) {
+  margin-right: 128px;
+}
+
 .footer-contacts-text {
   display: block;
+  margin-bottom: 8px;
   font-size: 16px;
   line-height: 40px;
   color: #b6c197;
 }
 
 .footer-contacts-value {
+  display: inline-block;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
