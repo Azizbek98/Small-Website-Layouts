@@ -297,3 +297,18 @@ img {
   color: #b6c197;
   text-decoration: none;
 }
+
+.footer-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+  color: #b6c197;
+}
+
+.footer-mail {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  text-decoration: none;
+  color: #fff;
+}
