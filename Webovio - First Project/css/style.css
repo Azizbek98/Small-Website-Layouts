@@ -247,6 +247,8 @@ img {
 .footer-top {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 52px;
+  border-bottom: 1px solid #5d6544;
 }
 
 .footer-contacts-item:not(:last-child) {
@@ -268,5 +270,22 @@ img {
   font-size: 16px;
   line-height: 40px;
   color: #fff;
+  text-decoration: none;
+}
+
+.footer-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer-link {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 40px;
+  color: #b6c197;
   text-decoration: none;
 }
