@@ -311,6 +311,11 @@ img {
   line-height: 40px;
   color: #b6c197;
   text-decoration: none;
+  transition: 0.5s all;
+}
+
+.footer-link:hover {
+  color: #ffd723;
 }
 
 .footer-text {
@@ -329,4 +334,9 @@ img {
   line-height: 38px;
   text-decoration: none;
   color: #fff;
+  transition: 0.5s all;
+}
+
+.footer-mail:hover {
+  color: #ffd723;
 }
