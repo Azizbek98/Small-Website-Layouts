@@ -361,12 +361,24 @@ img {
 }
 
 @media (max-width: 992px) {
+  .services-list {
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
 }
 
 @media (max-width: 576px) {
+  .services-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .services-subtitle,
+  .services-description {
+    max-width: none;
+  }
 }
 
 @media (max-width: 375px) {
