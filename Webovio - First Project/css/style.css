@@ -388,6 +388,11 @@ img {
 }
 
 @media (max-width: 576px) {
+  .hero-title {
+    font-size: 50px;
+    line-height: 65px;
+  }
+
   .services-list {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -400,6 +405,12 @@ img {
   .get-started-title {
     font-size: 42px;
     line-height: 54px;
+  }
+
+  .footer-middle {
+    --grid-gap: 40px;
+    gap: var(--grid-gap);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
