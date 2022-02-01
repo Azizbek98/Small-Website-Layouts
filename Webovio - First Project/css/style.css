@@ -366,16 +366,25 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .services-subtitle,
+  .services-description {
+    max-width: none;
+  }
+
   .footer-middle {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .footer-middle:last-child::before {
+  .footer-column:last-child::before {
     display: none;
   }
 }
 
 @media (max-width: 768px) {
+  .get-started-title {
+    font-size: 55px;
+    line-height: 65px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -386,6 +395,11 @@ img {
   .services-subtitle,
   .services-description {
     max-width: none;
+  }
+
+  .get-started-title {
+    font-size: 42px;
+    line-height: 54px;
   }
 }
 
