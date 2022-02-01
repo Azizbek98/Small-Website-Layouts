@@ -385,12 +385,27 @@ img {
     font-size: 55px;
     line-height: 65px;
   }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .footer-bottom .logo {
+    margin-bottom: 5px;
+  }
 }
 
 @media (max-width: 576px) {
   .hero-title {
     font-size: 50px;
     line-height: 65px;
+  }
+
+  .services {
+    padding: 50px 0;
   }
 
   .services-list {
