@@ -365,6 +365,14 @@ img {
     gap: 50px;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .footer-middle {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-middle:last-child::before {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
