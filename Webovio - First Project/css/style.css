@@ -430,4 +430,16 @@ img {
 }
 
 @media (max-width: 375px) {
+  .logo {
+    width: 65%;
+  }
+
+  .hero-title {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .footer-mail {
+    font-size: 20px;
+  }
 }
