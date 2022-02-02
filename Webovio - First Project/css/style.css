@@ -434,9 +434,17 @@ img {
     width: 65%;
   }
 
-  .hero-title {
+  .hero .hero-title {
     font-size: 45px;
     line-height: 60px;
+  }
+
+  .services-list {
+    display: block;
+  }
+
+  .services-item {
+    margin-bottom: 40px;
   }
 
   .footer-mail {
