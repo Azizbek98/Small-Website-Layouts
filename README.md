@@ -1,3 +1,6 @@
-# Small-Website-Layouts
+# Webovio-Project-1
 
-This is all projects that I have done, for learning purpose
+This is the first HTML, CSS website layout converted from Figma.
+
+- Created by: Samatov Azizbek
+- Deploy:
