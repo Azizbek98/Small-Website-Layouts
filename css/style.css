@@ -33,16 +33,51 @@ body {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1140px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
 /* Header Section Styles */
 .header {
+  padding: 24px 0;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.burger {
+  position: relative;
+  border-radius: 100%;
+  padding: 14px 11px;
+  height: 40px;
+  width: 40px;
+  background-color: #f5f6f7;
+}
+
+.burger-line {
+  position: absolute;
+  top: 12px;
+  left: 11px;
+  display: inline-block;
+  height: 2px;
+  width: calc(100% - 22px);
+  background-color: #000;
+}
+
+.burger-line:nth-child(2) {
+  top: 20px;
+}
+
+.burger-line:nth-child(3) {
+  top: 28px;
 }
 
 /* Hero Section Styles */
