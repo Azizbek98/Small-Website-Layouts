@@ -19,6 +19,32 @@ body {
   font-weight: 400;
 }
 
+.link {
+  display: inline-flex;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+  text-decoration: none;
+  color: #d4d6d4;
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: #ffd723;
+}
+
+.link svg {
+  height: 12px;
+  width: 9px;
+  transform: translateY(1px);
+  fill: currentColor;
+}
+
+.link span {
+  text-indent: 6px;
+  border-bottom: 1px solid currentColor;
+}
+
 .list-reset {
   margin: 0;
   padding: 0;
@@ -82,8 +108,40 @@ body {
 
 /* Hero Section Styles */
 .hero {
+  padding-top: 212px;
+  padding-bottom: 210px;
   background-image: url("../images/hero-image.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero-content {
+  max-width: 616px;
+  color: #fff;
+}
+
+.hero-subtitle {
+  display: inline-block;
+  margin-bottom: 22px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.hero-title {
+  margin: 0 0 24px 0;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+}
+
+.hero-descr {
+  margin: 0;
+  margin-bottom: 45px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.hero-link {
+  color: #ffd723;
 }
